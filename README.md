@@ -1,4 +1,4 @@
-# NestJS + NextJS Monorepo
+# Simple NestJS + NextJS Monorepo
 
 A production-ready monorepo boilerplate with **NestJS**, **Next.js**, and shared tooling — managed with Yarn 4 workspaces and Turbo.
 
@@ -12,6 +12,7 @@ A production-ready monorepo boilerplate with **NestJS**, **Next.js**, and shared
 | Linting | ESLint 9 (shared config) |
 | Formatting | Prettier 3 (shared config) |
 | Releases | semantic-release · Conventional Commits |
+| Containers | Docker · GitHub Container Registry |
 
 ## Quick Start
 
@@ -31,5 +32,6 @@ See [docs/repo/getting-started.md](docs/repo/getting-started.md) for full setup 
 | [Architecture](docs/repo/architecture.md) | Monorepo structure, apps, shared packages |
 | [Development Guide](docs/repo/development.md) | Scripts, linting, formatting, TypeScript config |
 | [CI / CD](docs/repo/ci-cd.md) | GitHub Actions workflows, release process |
+| [Docker](docs/repo/docker.md) | Dockerfiles, image publishing, local usage |
 | [Commit Conventions](docs/repo/commit-conventions.md) | Conventional commit format and types |
 

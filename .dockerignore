@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules
+apps/*/node_modules
+packages/*/node_modules
+
+# Build outputs
+apps/client/.next
+apps/server/dist
+apps/*/.turbo
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# Docs & misc
+docs
+*.md
+.editorconfig
+.turbo
+
+# GitHub Actions
+.github
+
+# Environment files
+.env
+.env.*
+!.env.example

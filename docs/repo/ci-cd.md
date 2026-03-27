@@ -19,6 +19,14 @@ Steps: Checkout (full history) → Node 20 + Corepack → `yarn install --immuta
 
 The release job only runs if `CI` concluded with `success`, so a failed lint or build automatically blocks any release.
 
+### Docker (`.github/workflows/docker.yml`)
+
+Triggers on **`v*` tags** — which are pushed automatically by `semantic-release` after a successful release.
+
+Runs two independent jobs in parallel (`build-client`, `build-server`), each building and pushing its image to the GitHub Container Registry (`ghcr.io`).
+
+See [docker.md](./docker.md) for image names, tags, and local usage.
+
 ## Release Process
 
 Releases are fully automated via **`semantic-release`**. There is no manual versioning.
