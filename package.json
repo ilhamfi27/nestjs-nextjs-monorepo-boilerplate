@@ -1,0 +1,22 @@
+{
+  "name": "nestjs-react-zod-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "format": "turbo run format",
+    "lint": "turbo run lint",
+    "server": "yarn workspace server",
+    "client": "yarn workspace client"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "turbo": "^2.8.20"
+  }
+}
