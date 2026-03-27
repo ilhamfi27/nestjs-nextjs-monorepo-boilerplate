@@ -8,6 +8,8 @@
     "build": "turbo run build",
     "format": "turbo run format",
     "lint": "turbo run lint",
+    "release": "semantic-release",
+    "commitlint": "commitlint",
     "server": "yarn workspace server",
     "client": "yarn workspace client"
   },
@@ -18,5 +20,12 @@
   "packageManager": "yarn@4.6.0",
   "dependencies": {
     "turbo": "^2.8.20"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19",
+    "@commitlint/config-conventional": "^19",
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
+    "semantic-release": "^24"
   }
 }
