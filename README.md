@@ -1,4 +1,4 @@
-# nestjs-nextjs-monorepo-boilerplate
+# NestJS + NextJS Monorepo
 
 A production-ready monorepo boilerplate with **NestJS**, **Next.js**, and shared tooling — managed with Yarn 4 workspaces and Turbo.
 
