@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/compare/v1.1.0...v1.2.0) (2026-03-27)
+
+
+### Features
+
+* add Docker support with multi-stage Dockerfiles for client and server ([820778e](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/commit/820778e1f1f567316ea55c05cf509a0c516db9d3))
+
 # [1.1.0](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/compare/v1.0.0...v1.1.0) (2026-03-27)
 
 
