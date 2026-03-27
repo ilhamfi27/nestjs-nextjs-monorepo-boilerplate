@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/compare/v1.0.0...v1.1.0) (2026-03-27)
+
+
+### Features
+
+* update README ([be13fc9](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/commit/be13fc93e9841b6ec5f16f679834d98fb661f2ff))
+
 # 1.0.0 (2026-03-27)
 
 
