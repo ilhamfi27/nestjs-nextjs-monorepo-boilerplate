@@ -27,7 +27,7 @@
     "@repo/typescript-config": "*",
     "eslint": "^9",
     "prettier": "^3",
-    "tsup": "^8",
+    "tsup": "^8.5.1",
     "typescript": "^5"
   },
   "prettier": "@repo/prettier-config"

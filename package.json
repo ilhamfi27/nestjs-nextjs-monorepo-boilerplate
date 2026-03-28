@@ -10,6 +10,7 @@
     "lint": "turbo run lint",
     "release": "semantic-release",
     "commitlint": "commitlint",
+    "check-versions": "node scripts/check-versions.mjs",
     "server": "yarn workspace server",
     "client": "yarn workspace client",
     "kit": "yarn workspace @repo/kit"
@@ -25,8 +26,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19",
     "@commitlint/config-conventional": "^19",
-    "@semantic-release/changelog": "^6",
-    "@semantic-release/git": "^10",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^24"
   }
 }
