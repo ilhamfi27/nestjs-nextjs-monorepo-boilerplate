@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/compare/v1.2.0...v1.3.0) (2026-03-28)
+
+
+### Features
+
+* implement shared package with constants, types, and Zod schemas ([4bb8c21](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/commit/4bb8c215a92b1fcb904df7cbd6c0edaf08dd1176))
+
 # [1.2.0](https://github.com/ilhamfi27/nestjs-nextjs-monorepo-boilerplate/compare/v1.1.0...v1.2.0) (2026-03-27)
 
 
