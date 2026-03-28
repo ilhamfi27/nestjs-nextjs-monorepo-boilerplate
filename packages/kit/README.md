@@ -1,4 +1,4 @@
-# @repo/shared
+# @repo/kit
 
 The central shared package for the monorepo. This is the single source of truth for anything used across both `apps/client` and `apps/server`.
 
@@ -39,7 +39,7 @@ As the project grows, add more subfolders here as needed:
 ## Usage
 
 ```ts
-import { UserSchema, CreateUserDto, ApiResponse, ERROR_CODE, DEFAULT_PAGE_SIZE } from '@repo/shared';
+import { UserSchema, CreateUserDto, ApiResponse, ERROR_CODE, DEFAULT_PAGE_SIZE } from '@repo/kit';
 
 // Validate incoming data
 const user = UserSchema.parse(rawData);
@@ -56,15 +56,15 @@ throw { code: ERROR_CODE.NOT_FOUND, message: 'User not found' };
 The package must be compiled before apps can consume it:
 
 ```sh
-yarn workspace @repo/shared build
+yarn workspace @repo/kit build
 ```
 
-Turbo handles this automatically — `@repo/shared` is always built before `client` and `server` because of `"dependsOn": ["^build"]` in `turbo.json`.
+Turbo handles this automatically — `@repo/kit` is always built before `client` and `server` because of `"dependsOn": ["^build"]` in `turbo.json`.
 
 ### Development (watch mode)
 
 ```sh
-yarn workspace @repo/shared dev
+yarn workspace @repo/kit dev
 ```
 
 Or just run `yarn dev` from the repo root — Turbo starts all watch processes in parallel.
@@ -74,4 +74,4 @@ Or just run `yarn dev` from the repo root — Turbo starts all watch processes i
 1. Create or edit the appropriate file in `src/schemas/`, `src/types/`, or `src/constants/`
 2. Export it from the subfolder's `index.ts`
 3. The root `src/index.ts` barrel export picks it up automatically
-4. Run `yarn workspace @repo/shared build` (or let `yarn dev` watch do it)
+4. Run `yarn workspace @repo/kit build` (or let `yarn dev` watch do it)

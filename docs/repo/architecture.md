@@ -8,7 +8,7 @@ nestjs-nextjs-monorepo-boilerplate/
 │   ├── client/          # Next.js 16 frontend (React 19, Tailwind v4)
 │   └── server/          # NestJS 11 backend (REST API)
 ├── packages/
-│   ├── shared/          # @repo/shared — constants, types, Zod schemas
+│   ├── kit/             # @repo/kit — constants, types, Zod schemas, utils
 │   ├── eslint-config/   # Shared ESLint configurations
 │   ├── prettier-config/ # Shared Prettier configuration
 │   └── typescript-config/ # Shared TypeScript configurations
@@ -55,15 +55,16 @@ Workspace packages are declared in the root `package.json`:
 
 ## Shared Packages
 
-### `@repo/shared`
+### `@repo/kit`
 
-The central shared package — single source of truth for anything used across both apps. See [`packages/shared/README.md`](../../packages/shared/README.md) for full details.
+The central shared package — single source of truth for anything used across both apps. See [`packages/kit/README.md`](../../packages/kit/README.md) for full details.
 
 | Subfolder | Purpose |
-|-----------|---------|
+|-----------|--------|
 | `src/constants/` | HTTP status codes, error code enums, pagination defaults |
 | `src/types/` | Pure TypeScript types — `ApiResponse<T>`, `PaginatedData<T>` |
 | `src/schemas/` | Zod schemas with inferred types — entities, DTOs, API envelopes |
+| `src/utils/` | Pure utility functions — string, date, pagination helpers |
 
 ### `@repo/typescript-config`
 

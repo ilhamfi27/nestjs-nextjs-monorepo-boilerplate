@@ -12,7 +12,7 @@
     "commitlint": "commitlint",
     "server": "yarn workspace server",
     "client": "yarn workspace client",
-    "shared": "yarn workspace @repo/shared"
+    "kit": "yarn workspace @repo/kit"
   },
   "workspaces": [
     "apps/*",
