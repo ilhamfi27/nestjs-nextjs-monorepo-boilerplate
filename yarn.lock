@@ -2588,6 +2588,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@repo/shared@npm:*, @repo/shared@workspace:packages/shared":
+  version: 0.0.0-use.local
+  resolution: "@repo/shared@workspace:packages/shared"
+  dependencies:
+    "@repo/typescript-config": "npm:*"
+    typescript: "npm:^5"
+    zod: "npm:^4.3.6"
+  languageName: unknown
+  linkType: soft
+
 "@repo/typescript-config@npm:*, @repo/typescript-config@workspace:packages/typescript-config":
   version: 0.0.0-use.local
   resolution: "@repo/typescript-config@workspace:packages/typescript-config"
@@ -5442,6 +5452,7 @@ __metadata:
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/prettier-config": "npm:*"
+    "@repo/shared": "npm:*"
     "@repo/typescript-config": "npm:*"
     "@tailwindcss/postcss": "npm:^4"
     "@types/node": "npm:^20"
@@ -5455,6 +5466,7 @@ __metadata:
     react-dom: "npm:19.2.4"
     tailwindcss: "npm:^4"
     typescript: "npm:^5"
+    zod: "npm:^4.3.6"
   languageName: unknown
   linkType: soft
 
@@ -12277,6 +12289,7 @@ __metadata:
     "@nestjs/testing": "npm:^11.0.1"
     "@repo/eslint-config": "npm:*"
     "@repo/prettier-config": "npm:*"
+    "@repo/shared": "npm:*"
     "@repo/typescript-config": "npm:*"
     "@swc/cli": "npm:^0.6.0"
     "@swc/core": "npm:^1.10.7"
@@ -12296,6 +12309,7 @@ __metadata:
     ts-node: "npm:^10.9.2"
     tsconfig-paths: "npm:^4.2.0"
     typescript: "npm:^5.7.3"
+    zod: "npm:^4.3.6"
   languageName: unknown
   linkType: soft
 
@@ -14406,7 +14420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.25.0 || ^4.0.0":
+"zod@npm:^3.25.0 || ^4.0.0, zod@npm:^4.3.6":
   version: 4.3.6
   resolution: "zod@npm:4.3.6"
   checksum: 10c0/860d25a81ab41d33aa25f8d0d07b091a04acb426e605f396227a796e9e800c44723ed96d0f53a512b57be3d1520f45bf69c0cb3b378a232a00787a2609625307

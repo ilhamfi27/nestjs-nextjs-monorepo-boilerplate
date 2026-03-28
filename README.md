@@ -9,6 +9,7 @@ A production-ready monorepo boilerplate with **NestJS**, **Next.js**, and shared
 | Frontend | Next.js 16 (App Router) · React 19 · Tailwind CSS v4 |
 | Backend | NestJS 11 · TypeScript |
 | Monorepo | Yarn 4 workspaces · Turbo |
+| Shared Package | `@repo/shared` — constants, types, Zod schemas |
 | Linting | ESLint 9 (shared config) |
 | Formatting | Prettier 3 (shared config) |
 | Releases | semantic-release · Conventional Commits |
@@ -30,6 +31,7 @@ See [docs/repo/getting-started.md](docs/repo/getting-started.md) for full setup 
 |----------|-------------|
 | [Getting Started](docs/repo/getting-started.md) | Prerequisites, installation, running locally |
 | [Architecture](docs/repo/architecture.md) | Monorepo structure, apps, shared packages |
+| [Shared Package](packages/shared/README.md) | Constants, types, Zod schemas — `@repo/shared` |
 | [Development Guide](docs/repo/development.md) | Scripts, linting, formatting, TypeScript config |
 | [CI / CD](docs/repo/ci-cd.md) | GitHub Actions workflows, release process |
 | [Docker](docs/repo/docker.md) | Dockerfiles, image publishing, local usage |
